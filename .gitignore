@@ -1,5 +1,48 @@
-out/
-.vs/
-*.exe
+ompiled object files
+*.o
 *.obj
+*.lo
+*.slo
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+*.lai
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug / Release builds
 *.pdb
+*.idb
+*.ilk
+
+# CMake build directories
+#/build/
+/out/
+
+# Visual Studio files
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Cache / Logs
+*.log
+*.cache
+*.tmp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
