@@ -1,3 +1,4 @@
+/*
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
 #include <iostream>
@@ -9,7 +10,7 @@ void main(int argc, char** argv)
 
 	while (window.isOpen())
 	{
-		while (const std::optional<sf::Event> event = window.pollEvent())
+		while (const std::optional<sf::Event> event = window.pollEvent()) // could've also used const auto event
 		{
 			if (event->is<sf::Event::Closed>())
 				window.close();
@@ -23,4 +24,12 @@ void main(int argc, char** argv)
 		// Draw here
 		window.display();
 	}
-} 
+}
+*/
+
+#include <iostream>
+
+int main()
+{
+	return EXIT_SUCCESS;
+}

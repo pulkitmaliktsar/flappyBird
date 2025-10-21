@@ -16,7 +16,7 @@ add_executable(flappyBird
     flappyBird.cpp
     flappyBird.h
     main.cpp
-)
+ "AssetManager.cpp")
 
 # Link SFML to your target
 target_link_libraries(flappyBird PRIVATE
